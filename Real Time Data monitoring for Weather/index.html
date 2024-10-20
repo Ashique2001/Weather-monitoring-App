@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Weather Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Weather Monitoring</h1>
+
+        <div class="input-section">
+            <input type="text" id="city-input" placeholder="Enter city name" />
+            <button onclick= "getWeather('b27cf312b79ef48b183b7a02c969e12b')"> Get Weather </button>
+        </div>
+
+        <div class="weather-info">
+            <h2 id="city-name">City Name</h2>
+            <p id="weather-desc">Weather Description: </p>
+            <p id="temperature">Temperature: </p>
+            <p id="humidity">Humidity: </p>
+            <p id="wind-speed">Wind Speed: </p>
+            <p id="alerts">Alerts: </p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
